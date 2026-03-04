@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "SX1255 RPi 4-5 HAT")
-		(date "2026-03-02")
-		(rev "V1.3")
+		(date "2026-03-04")
+		(rev "V1.3.1")
 		(company "Z32IT")
 		(comment 1 "Modified SXceiver")
 	)
@@ -2769,155 +2769,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Polyfuse_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F"
-				(at -1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Polyfuse_Small"
-				(at 1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.27 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*polyfuse* *PTC*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Polyfuse_Small_0_1"
-				(polyline
-					(pts
-						(xy -1.016 1.27) (xy -1.016 0.762) (xy 1.016 -0.762) (xy 1.016 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -0.508 1.27)
-					(end 0.508 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Polyfuse_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.635)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.635)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -3035,6 +2886,178 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ECS-2520MV-xxx-xx_1"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at -5.08 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "ECS-2520MV-xxx-xx"
+				(at 1.27 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Oscillator:Oscillator_SMD_ECS_2520MV-xxx-xx-4Pin_2.5x2.0mm"
+				(at 11.43 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf"
+				(at -4.445 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "HCMOS Crystal Clock Oscillator, 2.5x2.0 mm SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Crystal Clock Oscillator ECS SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Oscillator*SMD*ECS*2520MV*2.5x2.0mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ECS-2520MV-xxx-xx_1_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 2.54) (xy -3.81 2.54) (xy -3.81 3.81) (xy -3.175 3.81) (xy -3.175 2.54) (xy -2.54 2.54)
+						(xy -2.54 3.81) (xy -1.905 3.81) (xy -1.905 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ECS-2520MV-xxx-xx_1_1_1"
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "Tri-State"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3545,178 +3568,6 @@
 						)
 					)
 					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Oscillator:ECS-2520MV-xxx-xx"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Y"
-				(at -5.08 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "ECS-2520MV-xxx-xx"
-				(at 1.27 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Oscillator:Oscillator_SMD_ECS_2520MV-xxx-xx-4Pin_2.5x2.0mm"
-				(at 11.43 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf"
-				(at -4.445 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "HCMOS Crystal Clock Oscillator, 2.5x2.0 mm SMD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Crystal Clock Oscillator ECS SMD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Oscillator*SMD*ECS*2520MV*2.5x2.0mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ECS-2520MV-xxx-xx_0_1"
-				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 2.54) (xy -3.81 2.54) (xy -3.81 3.81) (xy -3.175 3.81) (xy -3.175 2.54) (xy -2.54 2.54)
-						(xy -2.54 3.81) (xy -1.905 3.81) (xy -1.905 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ECS-2520MV-xxx-xx_1_1"
-				(pin input line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "Tri-State"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6987,16 +6838,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 176.53) (xy 52.07 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "104acd17-abda-43d3-b3f1-2b1ca5e0c125")
-	)
-	(wire
-		(pts
 			(xy 276.86 218.44) (xy 280.67 218.44)
 		)
 		(stroke
@@ -8287,6 +8128,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 170.18) (xy 52.07 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3e48f7b-8cba-48cb-9652-8bfbe44e5567")
+	)
+	(wire
+		(pts
 			(xy 270.51 218.44) (xy 270.51 226.06)
 		)
 		(stroke
@@ -8404,16 +8255,6 @@
 			(type default)
 		)
 		(uuid "b1157f15-a68d-41e3-805f-913be6422d03")
-	)
-	(wire
-		(pts
-			(xy 52.07 170.18) (xy 52.07 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b13d7f92-5369-4635-ba02-b7a3b4b04f5e")
 	)
 	(wire
 		(pts
@@ -10108,7 +9949,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 211.836 162.306 0)
 			(effects
 				(font
@@ -10117,7 +9958,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "Manufacturer" "Vishay Dale"
 			(at 215.9 165.1 0)
 			(effects
 				(font
@@ -10126,7 +9967,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "Manufacturer Product Number" "CRCW0603330RFKEA"
+			(at 215.9 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "541-330HCT-ND"
 			(at 215.9 165.1 0)
 			(effects
 				(font
@@ -10196,7 +10046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 218.44 88.9 0)
 			(effects
 				(font
@@ -10205,7 +10055,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "Manufacturer" "KEMET"
 			(at 218.44 88.9 0)
 			(effects
 				(font
@@ -10214,7 +10064,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "Manufacturer Product Number" "C0603C101J8GACTU"
+			(at 218.44 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "399-15348-1-ND"
 			(at 218.44 88.9 0)
 			(effects
 				(font
@@ -10480,7 +10339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 52.07 181.61 0)
 			(effects
 				(font
@@ -10489,7 +10348,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "Manufacturer" "YAGEO"
 			(at 52.07 181.61 0)
 			(effects
 				(font
@@ -10498,7 +10357,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "Manufacturer Product Number" "CC0603JRX7R6BB105"
+			(at 52.07 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "311-3484-1-ND"
 			(at 52.07 181.61 0)
 			(effects
 				(font
@@ -10565,7 +10433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 227.33 227.33 0)
 			(effects
 				(font
@@ -10574,8 +10442,8 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
-			(at 227.33 227.33 0)
+		(property "Manufacturer" "Vishay Dale"
+			(at 227.33 227.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10583,8 +10451,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 227.33 227.33 0)
+		(property "Manufacturer Product Number" "CRCW0603330RFKEA"
+			(at 227.33 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "541-330HCT-ND"
+			(at 227.33 227.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10650,7 +10527,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 169.926 102.616 0)
 			(effects
 				(font
@@ -10659,7 +10536,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "Manufacturer" "Vishay Dale"
 			(at 173.99 105.41 0)
 			(effects
 				(font
@@ -10668,7 +10545,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "Manufacturer Product Number" "CRCW0603330RFKEA"
+			(at 173.99 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "541-330HCT-ND"
 			(at 173.99 105.41 0)
 			(effects
 				(font
@@ -10802,7 +10688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 242.57 73.66 0)
 			(effects
 				(font
@@ -10811,7 +10697,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "Manufacturer" "Johanson Technology Inc."
 			(at 242.57 73.66 0)
 			(effects
 				(font
@@ -10820,7 +10706,16 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "Manufacturer Product Number" "LRC0603CJ82NGV001T"
+			(at 242.57 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "712-LRC0603CJ82NGV001TCT-ND"
 			(at 242.57 73.66 0)
 			(effects
 				(font
@@ -10839,80 +10734,6 @@
 			(project "SX1255-SXCEIVER-HAT"
 				(path "/5946dd4e-fab1-4214-b6c7-4fabd0e98d1f"
 					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RF_Filter:LFCN-490")
-		(at 273.05 68.58 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d3f2055-2db5-44fe-9a97-dcdd1d0642fd")
-		(property "Reference" "FL2"
-			(at 273.05 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LFCN-490"
-			(at 273.05 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Filter:Filter_Mini-Circuits_FV1206"
-			(at 273.05 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.minicircuits.com/pdfs/LFCN-490+.pdf"
-			(at 273.05 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "490MHz 50 Ohm Passive Low Pass Filter, FV1206"
-			(at 273.05 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "c79359d3-f128-4fb1-bdba-53ca01fd1418")
-		)
-		(pin "3"
-			(uuid "8eeb7808-aa4a-4ebe-bf37-0f9aeaffdd6b")
-		)
-		(pin "2"
-			(uuid "13fe114c-7194-4b26-9cad-8c7639a02384")
-		)
-		(pin "1"
-			(uuid "b0a41dd0-4973-48d4-ad76-9d1d917c853f")
-		)
-		(instances
-			(project "SX1255-SXCEIVER-HAT"
-				(path "/5946dd4e-fab1-4214-b6c7-4fabd0e98d1f"
-					(reference "FL2")
 					(unit 1)
 				)
 			)
@@ -10961,7 +10782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 182.626 125.984 0)
 			(effects
 				(font
@@ -10970,7 +10791,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "Manufacturer" "Vishay Dale"
 			(at 185.42 121.92 0)
 			(effects
 				(font
@@ -10979,7 +10800,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "Manufacturer Product Number" "CRCW06031R00FKEA"
+			(at 185.42 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "541-1.00HHCT-ND"
 			(at 185.42 121.92 0)
 			(effects
 				(font
@@ -11046,7 +10876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 227.33 229.87 0)
 			(effects
 				(font
@@ -11055,8 +10885,8 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
-			(at 227.33 229.87 0)
+		(property "Manufacturer" "Vishay Dale"
+			(at 227.33 229.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11064,8 +10894,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 227.33 229.87 0)
+		(property "Manufacturer Product Number" "CRCW0603330RFKEA"
+			(at 227.33 229.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "541-330HCT-ND"
+			(at 227.33 229.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11216,7 +11055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 190.5 118.11 0)
 			(effects
 				(font
@@ -11225,7 +11064,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "Manufacturer" "YAGEO"
 			(at 190.5 118.11 0)
 			(effects
 				(font
@@ -11234,7 +11073,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "Manufacturer Product Number" "CC0603JRX7R6BB105"
+			(at 190.5 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "311-3484-1-ND"
 			(at 190.5 118.11 0)
 			(effects
 				(font
@@ -11433,7 +11281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 295.91 220.98 0)
 			(effects
 				(font
@@ -11442,8 +11290,8 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
-			(at 295.91 220.98 0)
+		(property "Manufacturer" "Vishay Dale"
+			(at 295.91 220.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11451,8 +11299,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 295.91 220.98 0)
+		(property "Manufacturer Product Number" "CRCW06031K00FKEA"
+			(at 295.91 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "541-1.00KHCT-ND"
+			(at 295.91 220.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11518,7 +11375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 348.996 171.704 0)
 			(effects
 				(font
@@ -11527,7 +11384,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "Manufacturer" "Vishay Dale"
 			(at 351.79 167.64 0)
 			(effects
 				(font
@@ -11536,7 +11393,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "Manufacturer Product Number" "CRCW06033K30FKEA"
+			(at 351.79 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "541-3.30KHCT-ND"
 			(at 351.79 167.64 0)
 			(effects
 				(font
@@ -11603,7 +11469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 348.996 188.214 0)
 			(effects
 				(font
@@ -11612,7 +11478,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "Manufacturer" "Vishay Dale"
 			(at 351.79 184.15 0)
 			(effects
 				(font
@@ -11621,7 +11487,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "Manufacturer Product Number" "CRCW06031K50JNEA"
+			(at 351.79 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "541-1.5KGCT-ND"
 			(at 351.79 184.15 0)
 			(effects
 				(font
@@ -11753,7 +11628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 223.52 237.49 0)
 			(effects
 				(font
@@ -11762,8 +11637,8 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
-			(at 223.52 237.49 0)
+		(property "Manufacturer" "Vishay Dale"
+			(at 223.52 237.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11771,8 +11646,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 223.52 237.49 0)
+		(property "Manufacturer Product Number" "CRCW06031M00FKEA"
+			(at 223.52 237.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "541-1.00MHCT-ND"
+			(at 223.52 237.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11839,7 +11723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 247.65 68.58 0)
 			(effects
 				(font
@@ -11848,8 +11732,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 247.65 68.58 0)
+		(property "Manufacturer" "Johanson Technology Inc."
+			(at 247.65 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11857,8 +11741,17 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
-			(at 247.65 68.58 0)
+		(property "Manufacturer Product Number" "LRC0603CJ39NGV001T"
+			(at 247.65 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "712-LRC0603CJ39NGV001TCT-ND"
+			(at 247.65 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12056,7 +11949,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 243.586 138.684 0)
 			(effects
 				(font
@@ -12065,7 +11958,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "Manufacturer" "Vishay Dale"
 			(at 246.38 134.62 0)
 			(effects
 				(font
@@ -12074,7 +11967,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "Manufacturer Product Number" "CRCW060333R0FKEA"
+			(at 246.38 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "541-33.0HCT-ND"
 			(at 246.38 134.62 0)
 			(effects
 				(font
@@ -12349,7 +12251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/devicedoc/21203m.pdf"
+		(property "Datasheet" "~"
 			(at 280.67 228.6 0)
 			(effects
 				(font
@@ -12358,7 +12260,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "I2C Serial EEPROM, 256Kb, DIP-8/SOIC-8/TSSOP-8/DFN-8"
+		(property "Description" "~"
+			(at 280.67 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Microchip Technology"
+			(at 280.67 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "24LC256-I/SN"
+			(at 280.67 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "24LC256-I/SN-ND"
 			(at 280.67 228.6 0)
 			(effects
 				(font
@@ -12436,7 +12365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 191.77 224.79 0)
 			(effects
 				(font
@@ -12445,7 +12374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 191.77 224.79 0)
 			(effects
 				(font
@@ -12454,143 +12383,30 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_NAME" "Nexperia"
+		(property "Manufacturer" "Nexperia USA Inc."
 			(at 191.77 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "MF" "NXP USA Inc."
+		(property "Manufacturer Product Number" "74LVC1G74DP,125"
 			(at 191.77 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "MOUSER_PRICE-STOCK" "https://www.mouser.co.uk/ProductDetail/Nexperia/74LVC1G74DP125?qs=me8TqzrmIYWtKZiCsFqsMg%3D%3D"
+		(property "Part Number" "1727-5983-1-ND"
 			(at 191.77 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "74LVC1G74 - Single D-type flip-flop with set and reset; positive edge trigger@en-us"
-			(at 191.77 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER_PART_NUMBER" "771-LVC1GDP125"
-			(at 191.77 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 191.77 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "TSSOP8-8 Nexperia USA Inc."
-			(at 191.77 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/74LVC1G74DP,125/NXP+Semiconductors/view-part/?ref=eda"
-			(at 191.77 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "1.1mm"
-			(at 191.77 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/74LVC1G74DP,125/NXP+Semiconductors/view-part/?ref=snap"
-			(at 191.77 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "74LVC1G74DP,125"
-			(at 191.77 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Flip Flop 1 Element D-Type 1 Bit Positive Edge 8-TSSOP, 8-MSOP (0.118, 3.00mm Width)"
-			(at 191.77 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 191.77 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "74LVC1G74DP,125"
-			(at 191.77 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -12670,7 +12486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 261.874 125.476 0)
 			(effects
 				(font
@@ -12679,7 +12495,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "Manufacturer" "Vishay Dale"
 			(at 259.08 129.54 0)
 			(effects
 				(font
@@ -12688,7 +12504,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "Manufacturer Product Number" "CRCW060310K0FKEA"
+			(at 259.08 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "541-10.0KHCT-ND"
 			(at 259.08 129.54 0)
 			(effects
 				(font
@@ -12747,7 +12572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf"
+		(property "Datasheet" "~"
 			(at 85.09 179.07 0)
 			(effects
 				(font
@@ -12756,7 +12581,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low Quiescent Current LDO Regulator, 3.3V, 250mA, Vin<=16V, SOT-223"
+		(property "Description" "~"
+			(at 85.09 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Microchip Technology"
+			(at 85.09 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "MCP1703T-3302E/DB"
+			(at 85.09 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "MCP1703T-3302E/DBCT-ND"
 			(at 85.09 177.8 0)
 			(effects
 				(font
@@ -12845,6 +12697,106 @@
 			(project "SX1255-SXCEIVER-HAT"
 				(path "/5946dd4e-fab1-4214-b6c7-4fabd0e98d1f"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RF_Filter:LFCN-490")
+		(at 273.05 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3baeaaef-e997-40cf-bde3-774422a5dc09")
+		(property "Reference" "FL2"
+			(at 278.892 55.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LFCN-490"
+			(at 279.654 58.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Filter:Filter_Mini-Circuits_FV1206"
+			(at 273.05 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 273.05 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "~"
+			(at 273.05 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Mini-Circuits"
+			(at 273.05 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "LFCN-490+"
+			(at 273.05 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "3157-LFCN-490+CT-ND"
+			(at 273.05 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "e16fd34d-f0ac-4be9-8a0e-2f89dbf4670e")
+		)
+		(pin "3"
+			(uuid "8e906697-fd2a-4c4e-b5e2-282ffaa1c8cd")
+		)
+		(pin "2"
+			(uuid "6d891af6-bcfe-4a57-93af-1fb582683ed4")
+		)
+		(pin "1"
+			(uuid "af49b14e-08fb-4386-806e-88dd871d5263")
+		)
+		(instances
+			(project "SX1255-SXCEIVER-HAT"
+				(path "/5946dd4e-fab1-4214-b6c7-4fabd0e98d1f"
+					(reference "FL2")
 					(unit 1)
 				)
 			)
@@ -13292,7 +13244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 180.34 224.79 0)
 			(effects
 				(font
@@ -13301,8 +13253,8 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
-			(at 180.34 224.79 0)
+		(property "Manufacturer" "Vishay Dale"
+			(at 180.34 224.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13310,8 +13262,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 180.34 224.79 0)
+		(property "Manufacturer Product Number" "CRCW0603330RFKEA"
+			(at 180.34 224.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "541-330HCT-ND"
+			(at 180.34 224.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13447,7 +13408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 165.1 99.06 0)
 			(effects
 				(font
@@ -13456,7 +13417,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "Manufacturer" "YAGEO"
 			(at 165.1 99.06 0)
 			(effects
 				(font
@@ -13465,7 +13426,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "Manufacturer Product Number" "CC0603JRX7R6BB105"
+			(at 165.1 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "311-3484-1-ND"
 			(at 165.1 99.06 0)
 			(effects
 				(font
@@ -13541,8 +13511,8 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
-			(at 62.23 118.11 0)
+		(property "Manufacturer" "Vishay Vitramon"
+			(at 62.23 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13550,8 +13520,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 62.23 118.11 0)
+		(property "Manufacturer Product Number" "VJ0603Y104JXQPW1BC"
+			(at 62.23 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "720-1688-1-ND"
+			(at 62.23 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13749,7 +13728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 290.83 74.93 0)
 			(effects
 				(font
@@ -13758,8 +13737,8 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
-			(at 290.83 74.93 0)
+		(property "Manufacturer" "Vishay Dale"
+			(at 290.83 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13767,8 +13746,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 290.83 74.93 0)
+		(property "Manufacturer Product Number" "CRCW06031M00FKEA"
+			(at 290.83 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "541-1.00MHCT-ND"
+			(at 290.83 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13834,7 +13822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 243.586 125.984 0)
 			(effects
 				(font
@@ -13843,7 +13831,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "Manufacturer" "Vishay Dale"
 			(at 246.38 121.92 0)
 			(effects
 				(font
@@ -13852,7 +13840,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "Manufacturer Product Number" "CRCW060333R0FKEA"
+			(at 246.38 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "541-33.0HCT-ND"
 			(at 246.38 121.92 0)
 			(effects
 				(font
@@ -13919,7 +13916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 243.586 133.604 0)
 			(effects
 				(font
@@ -13928,7 +13925,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "Manufacturer" "Vishay Dale"
 			(at 246.38 129.54 0)
 			(effects
 				(font
@@ -13937,7 +13934,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "Manufacturer Product Number" "CRCW0603330RFKEA"
+			(at 246.38 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "541-330HCT-ND"
 			(at 246.38 129.54 0)
 			(effects
 				(font
@@ -14152,7 +14158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 173.99 243.84 0)
 			(effects
 				(font
@@ -14161,8 +14167,8 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
-			(at 173.99 243.84 0)
+		(property "Manufacturer" "Vishay Dale"
+			(at 173.99 243.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14170,8 +14176,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 173.99 243.84 0)
+		(property "Manufacturer Product Number" "CRCW06031K50JNEA"
+			(at 173.99 243.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "541-1.5KGCT-ND"
+			(at 173.99 243.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14240,7 +14255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 232.41 158.75 0)
 			(effects
 				(font
@@ -14249,7 +14264,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "Manufacturer" "YAGEO"
 			(at 232.41 158.75 0)
 			(effects
 				(font
@@ -14258,7 +14273,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "Manufacturer Product Number" "CC0603JRX7R6BB105"
+			(at 232.41 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "311-3484-1-ND"
 			(at 232.41 158.75 0)
 			(effects
 				(font
@@ -14325,7 +14349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 204.216 162.306 0)
 			(effects
 				(font
@@ -14334,7 +14358,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "Manufacturer" "Vishay Dale"
 			(at 208.28 165.1 0)
 			(effects
 				(font
@@ -14343,7 +14367,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "Manufacturer Product Number" "CRCW060333R0FKEA"
+			(at 208.28 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "541-33.0HCT-ND"
 			(at 208.28 165.1 0)
 			(effects
 				(font
@@ -14362,6 +14395,106 @@
 			(project "SX1255-SXCEIVER-HAT"
 				(path "/5946dd4e-fab1-4214-b6c7-4fabd0e98d1f"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "ECS-2520MV-xxx-xx_1")
+		(lib_id "Oscillator:ECS-2520MV-xxx-xx")
+		(at 68.58 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68b8c186-ba5c-4737-8f3b-bdb77f3bbca2")
+		(property "Reference" "Y1"
+			(at 64.77 121.666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "38.4MHz"
+			(at 68.834 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Oscillator:Oscillator_SMD_ECS_2520MV-xxx-xx-4Pin_2.5x2.0mm"
+			(at 80.01 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.135 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Clipped SW/0.5~1ppm"
+			(at 80.264 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "EPSON "
+			(at 68.58 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "TG2520SMN 38.4000M-MCGNNM3"
+			(at 68.58 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "114-TG2520SMN38.4000M-MCGNNM3CT-ND"
+			(at 68.58 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d70749b5-7fc0-42c2-9b90-ee0ac386d8b4")
+		)
+		(pin "3"
+			(uuid "e8e04239-c837-43cd-8251-1065e6523926")
+		)
+		(pin "4"
+			(uuid "ec487545-f541-4ecb-a047-e838af131d29")
+		)
+		(pin "1"
+			(uuid "0f349e60-cc83-4276-bbba-f715f6ab9644")
+		)
+		(instances
+			(project ""
+				(path "/5946dd4e-fab1-4214-b6c7-4fabd0e98d1f"
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -14476,7 +14609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 348.996 183.134 0)
 			(effects
 				(font
@@ -14485,7 +14618,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "Manufacturer" "Vishay Dale"
 			(at 351.79 179.07 0)
 			(effects
 				(font
@@ -14494,7 +14627,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "Manufacturer Product Number" "CRCW06031K50JNEA"
+			(at 351.79 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "541-1.5KGCT-ND"
 			(at 351.79 179.07 0)
 			(effects
 				(font
@@ -14561,7 +14703,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 221.996 162.306 0)
 			(effects
 				(font
@@ -14570,7 +14712,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "Manufacturer" "Vishay Dale"
 			(at 226.06 165.1 0)
 			(effects
 				(font
@@ -14579,7 +14721,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "Manufacturer Product Number" "CRCW06031R00FKEA"
+			(at 226.06 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "541-1.00HHCT-ND"
 			(at 226.06 165.1 0)
 			(effects
 				(font
@@ -14715,7 +14866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 176.53 129.54 0)
 			(effects
 				(font
@@ -14724,7 +14875,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "Manufacturer" "Vishay Vitramon"
 			(at 176.53 129.54 0)
 			(effects
 				(font
@@ -14733,7 +14884,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "Manufacturer Product Number" "VJ0603Y104JXQPW1BC"
+			(at 176.53 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "720-1688-1-ND"
 			(at 176.53 129.54 0)
 			(effects
 				(font
@@ -14824,88 +14984,12 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
-		(at 359.41 195.58 180)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "72f97579-b720-4aaf-9bd6-35fff941a473")
-		(property "Reference" "D2"
-			(at 370.586 193.802 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Green"
-			(at 370.84 196.342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 359.41 195.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 359.41 195.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 359.41 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" "1=K 2=A"
-			(at 359.41 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a423d241-ffed-4a87-80d8-9f09c4a770a1")
-		)
-		(pin "2"
-			(uuid "d25a1f5b-e03b-497d-ae05-698ac9deaeaa")
-		)
-		(instances
-			(project "SX1255-SXCEIVER-HAT"
-				(path "/5946dd4e-fab1-4214-b6c7-4fabd0e98d1f"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 351.79 195.58 270)
 		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(uuid "749ea570-7461-4a4f-9faa-f631612f7696")
 		(property "Reference" "R34"
@@ -14942,7 +15026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 348.996 199.644 0)
 			(effects
 				(font
@@ -14951,7 +15035,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "Manufacturer" "Vishay Dale"
 			(at 351.79 195.58 0)
 			(effects
 				(font
@@ -14960,7 +15044,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "Manufacturer Product Number" "CRCW06031K00FKEA"
+			(at 351.79 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "541-1.00KHCT-ND"
 			(at 351.79 195.58 0)
 			(effects
 				(font
@@ -15027,7 +15120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 220.98 215.9 0)
 			(effects
 				(font
@@ -15036,8 +15129,8 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
-			(at 220.98 215.9 0)
+		(property "Manufacturer" "Vishay Vitramon"
+			(at 220.98 215.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15045,8 +15138,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 220.98 215.9 0)
+		(property "Manufacturer Product Number" "VJ0603Y104JXQPW1BC"
+			(at 220.98 215.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "720-1688-1-ND"
+			(at 220.98 215.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15136,12 +15238,115 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED_Small")
+		(at 359.41 195.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76b745c3-8168-461f-a493-72ff30020865")
+		(property "Reference" "D2"
+			(at 370.586 193.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Green"
+			(at 371.094 196.088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 359.41 195.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 359.41 195.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 359.41 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 359.41 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 359.41 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "APT1608SGD3"
+			(at 359.41 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "754-APT1608SGD3CT-ND"
+			(at 359.41 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6d8f6f0-a789-43d7-9d7c-6f1b77386c34")
+		)
+		(pin "2"
+			(uuid "1dfe2929-4dc5-4207-aa70-dfda101e403b")
+		)
+		(instances
+			(project "SX1255-SXCEIVER-HAT"
+				(path "/5946dd4e-fab1-4214-b6c7-4fabd0e98d1f"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 351.79 190.5 270)
 		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(uuid "7ae72e5e-9b10-4602-bab4-9feb5208d534")
 		(property "Reference" "R35"
@@ -15178,7 +15383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 348.996 194.564 0)
 			(effects
 				(font
@@ -15187,7 +15392,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "Manufacturer" "Vishay Dale"
 			(at 351.79 190.5 0)
 			(effects
 				(font
@@ -15196,7 +15401,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "Manufacturer Product Number" "CRCW0603330RFKEA"
+			(at 351.79 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "541-330HCT-ND"
 			(at 351.79 190.5 0)
 			(effects
 				(font
@@ -15287,76 +15501,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Polyfuse_Small")
-		(at 52.07 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7f298b20-7d7f-43e6-9082-1b17cd7e8171")
-		(property "Reference" "F1"
-			(at 48.514 174.244 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "6V/0.5A"
-			(at 43.18 176.276 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
-			(at 53.34 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
-			(at 52.07 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "55ebd3a1-4b57-493f-8fdd-3b05b8b76b7a")
-		)
-		(pin "1"
-			(uuid "2b34d863-6309-4654-991c-4fca1d88e849")
-		)
-		(instances
-			(project ""
-				(path "/5946dd4e-fab1-4214-b6c7-4fabd0e98d1f"
-					(reference "F1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L_Ferrite_Small")
 		(at 60.96 177.8 90)
 		(unit 1)
@@ -15401,6 +15545,33 @@
 		)
 		(property "Description" "Inductor with ferrite core, small symbol"
 			(at 60.96 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 60.96 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "BLM18HG601SN1D"
+			(at 60.96 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "490-1033-1-ND"
+			(at 60.96 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15534,7 +15705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 99.06 181.61 0)
 			(effects
 				(font
@@ -15543,7 +15714,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "Manufacturer" "YAGEO"
 			(at 99.06 181.61 0)
 			(effects
 				(font
@@ -15552,7 +15723,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "Manufacturer Product Number" "CC0603JRX7R6BB105"
+			(at 99.06 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "311-3484-1-ND"
 			(at 99.06 181.61 0)
 			(effects
 				(font
@@ -15973,82 +16153,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
-		(at 359.41 190.5 180)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "9744977d-161a-4ec4-b081-4de3f6a2026e")
-		(property "Reference" "D3"
-			(at 371.094 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Red"
-			(at 370.84 190.246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 359.41 190.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 359.41 190.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 359.41 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" "1=K 2=A"
-			(at 359.41 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ee08b783-170b-47b8-9379-260ce4bbc2f4")
-		)
-		(pin "2"
-			(uuid "b5f363cc-d412-4e9a-a267-f81c8b92763f")
-		)
-		(instances
-			(project "SX1255-SXCEIVER-HAT"
-				(path "/5946dd4e-fab1-4214-b6c7-4fabd0e98d1f"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 180.34 121.92 0)
 		(unit 1)
@@ -16156,7 +16260,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 304.8 220.98 0)
 			(effects
 				(font
@@ -16165,8 +16269,8 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
-			(at 304.8 220.98 0)
+		(property "Manufacturer" "Vishay Dale"
+			(at 304.8 220.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16174,8 +16278,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 304.8 220.98 0)
+		(property "Manufacturer Product Number" "CRCW06033K30FKEA"
+			(at 304.8 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "541-3.30KHCT-ND"
+			(at 304.8 220.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16243,7 +16356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 69.85 181.61 0)
 			(effects
 				(font
@@ -16252,7 +16365,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 69.85 181.61 0)
 			(effects
 				(font
@@ -16261,7 +16374,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "Manufacturer Product Number" "CL31B226MPHNNNE"
+			(at 69.85 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "1276-3148-1-ND"
 			(at 69.85 181.61 0)
 			(effects
 				(font
@@ -16289,8 +16411,8 @@
 		(lib_id "Device:C_Small")
 		(at 86.36 135.89 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "9dd67a35-90e2-413b-b006-3047fda51168")
@@ -16330,7 +16452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 86.36 135.89 0)
 			(effects
 				(font
@@ -16339,7 +16461,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "Manufacturer" "KEMET"
 			(at 86.36 135.89 0)
 			(effects
 				(font
@@ -16348,7 +16470,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "Manufacturer Product Number" "C0603C100J8GACTU"
+			(at 86.36 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "399-14932-1-ND"
 			(at 86.36 135.89 0)
 			(effects
 				(font
@@ -16502,6 +16633,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Lite-On Inc."
+			(at 173.99 236.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "LTST-T180UWET"
+			(at 173.99 236.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "160-LTST-T180UWETCT-ND"
+			(at 173.99 236.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3c7ba5df-e506-4368-8ce3-1576d2182b1f")
 		)
@@ -16570,6 +16728,33 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
+			(at 359.41 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Lite-On Inc."
+			(at 359.41 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "LTST-C190KSKT"
+			(at 359.41 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "160-1437-1-ND"
 			(at 359.41 184.15 0)
 			(effects
 				(font
@@ -16703,7 +16888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 62.23 110.49 0)
 			(effects
 				(font
@@ -16712,7 +16897,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 62.23 110.49 0)
 			(effects
 				(font
@@ -16721,7 +16906,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "Manufacturer Product Number" "CL31B226MPHNNNE"
+			(at 62.23 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "1276-3148-1-ND"
 			(at 62.23 110.49 0)
 			(effects
 				(font
@@ -16788,26 +16982,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 346.456 222.504 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 349.25 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 349.25 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17008,7 +17184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 176.53 124.46 0)
 			(effects
 				(font
@@ -17017,7 +17193,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "Manufacturer" "Vishay Vitramon"
 			(at 176.53 124.46 0)
 			(effects
 				(font
@@ -17026,7 +17202,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "Manufacturer Product Number" "VJ0603Y104JXQPW1BC"
+			(at 176.53 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "720-1688-1-ND"
 			(at 176.53 124.46 0)
 			(effects
 				(font
@@ -17093,7 +17278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 170.18 43.18 0)
 			(effects
 				(font
@@ -17102,8 +17287,8 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
-			(at 170.18 43.18 0)
+		(property "Manufacturer" "YAGEO"
+			(at 170.18 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17111,8 +17296,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 170.18 43.18 0)
+		(property "Manufacturer Product Number" "CC0603JRX7R6BB105"
+			(at 170.18 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "311-3484-1-ND"
+			(at 170.18 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17187,8 +17381,8 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
-			(at 311.15 220.98 0)
+		(property "Manufacturer" "Vishay Dale"
+			(at 311.15 220.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17196,8 +17390,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 311.15 220.98 0)
+		(property "Manufacturer Product Number" "CRCW06033K30FKEA"
+			(at 311.15 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "541-3.30KHCT-ND"
+			(at 311.15 220.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17224,7 +17427,7 @@
 		(lib_id "Connector_Generic:Conn_02x20_Odd_Even")
 		(at 347.98 120.65 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -17264,25 +17467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 347.98 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" "-"
-			(at 347.98 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "-"
+		(property "Description" "~"
 			(at 347.98 120.65 0)
 			(effects
 				(font
@@ -17545,7 +17730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 119.38 73.66 0)
 			(effects
 				(font
@@ -17554,8 +17739,8 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
-			(at 119.38 73.66 0)
+		(property "Manufacturer" "Vishay Dale"
+			(at 119.38 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17563,8 +17748,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 119.38 73.66 0)
+		(property "Manufacturer Product Number" "CRCW06031M00FKEA"
+			(at 119.38 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "541-1.00MHCT-ND"
+			(at 119.38 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17630,7 +17824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 214.376 162.306 0)
 			(effects
 				(font
@@ -17639,7 +17833,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "Manufacturer" "Vishay Dale"
 			(at 218.44 165.1 0)
 			(effects
 				(font
@@ -17648,7 +17842,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "Manufacturer Product Number" "CRCW0603330RFKEA"
+			(at 218.44 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "541-330HCT-ND"
 			(at 218.44 165.1 0)
 			(effects
 				(font
@@ -17715,7 +17918,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 219.456 162.306 0)
 			(effects
 				(font
@@ -17724,7 +17927,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "Manufacturer" "Vishay Dale"
 			(at 223.52 165.1 0)
 			(effects
 				(font
@@ -17733,7 +17936,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "Manufacturer Product Number" "CRCW060333R0FKEA"
+			(at 223.52 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "541-33.0HCT-ND"
 			(at 223.52 165.1 0)
 			(effects
 				(font
@@ -17768,7 +17980,7 @@
 		(dnp no)
 		(uuid "b58c7d42-12bd-4240-a0de-a0b69697b47b")
 		(property "Reference" "C18"
-			(at 203.454 116.84 0)
+			(at 202.946 114.046 0)
 			(effects
 				(font
 					(size 1 1)
@@ -17777,7 +17989,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 202.692 118.618 0)
+			(at 202.946 115.824 0)
 			(effects
 				(font
 					(size 1 1)
@@ -17803,7 +18015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 198.12 116.84 0)
 			(effects
 				(font
@@ -17812,7 +18024,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "Manufacturer" "KEMET"
 			(at 198.12 116.84 0)
 			(effects
 				(font
@@ -17821,7 +18033,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "Manufacturer Product Number" "C0603C103K8RACTU"
+			(at 198.12 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "399-C0603C103K8RACTUCT-ND"
 			(at 198.12 116.84 0)
 			(effects
 				(font
@@ -17840,96 +18061,6 @@
 			(project "SX1255-SXCEIVER-HAT"
 				(path "/5946dd4e-fab1-4214-b6c7-4fabd0e98d1f"
 					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Oscillator:ECS-2520MV-xxx-xx")
-		(at 68.58 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b64fa80f-6f41-406a-b354-d43678b51e30")
-		(property "Reference" "Y1"
-			(at 71.12 137.414 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TCXO 38.40MHz"
-			(at 68.834 129.54 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
-			(at 80.01 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "KDS-DSB321SDN"
-			(at 64.135 126.365 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Clipped SW 0.5~1.5ppm"
-			(at 77.978 123.19 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "PN" ""
-			(at 68.58 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 68.58 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2232d4ce-1979-41a1-826f-61926f913757")
-		)
-		(pin "3"
-			(uuid "4859047a-d305-4e9b-8da9-d0c6f66e8715")
-		)
-		(pin "2"
-			(uuid "67df2df8-4dc5-4e3f-a9a0-39822179e00d")
-		)
-		(pin "4"
-			(uuid "6670e32d-204d-4579-850e-2cbcb92344c4")
-		)
-		(instances
-			(project ""
-				(path "/5946dd4e-fab1-4214-b6c7-4fabd0e98d1f"
-					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -17978,7 +18109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 243.586 136.144 0)
 			(effects
 				(font
@@ -17987,7 +18118,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "Manufacturer" "Vishay Dale"
 			(at 246.38 132.08 0)
 			(effects
 				(font
@@ -17996,7 +18127,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "Manufacturer Product Number" "CRCW0603330RFKEA"
+			(at 246.38 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "541-330HCT-ND"
 			(at 246.38 132.08 0)
 			(effects
 				(font
@@ -18196,7 +18336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 243.586 141.224 0)
 			(effects
 				(font
@@ -18205,7 +18345,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "Manufacturer" "Vishay Dale"
 			(at 246.38 137.16 0)
 			(effects
 				(font
@@ -18214,7 +18354,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "Manufacturer Product Number" "CRCW0603330RFKEA"
+			(at 246.38 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "541-330HCT-ND"
 			(at 246.38 137.16 0)
 			(effects
 				(font
@@ -18233,6 +18382,109 @@
 			(project "SX1255-SXCEIVER-HAT"
 				(path "/5946dd4e-fab1-4214-b6c7-4fabd0e98d1f"
 					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 359.41 190.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c139f8f2-cdd7-4d44-b321-a0520447622e")
+		(property "Reference" "D3"
+			(at 370.586 188.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Red"
+			(at 371.094 191.008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 359.41 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 359.41 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 359.41 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 359.41 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Lite-On Inc."
+			(at 359.41 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "LTST-S270KRKT"
+			(at 359.41 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "160-1479-1-ND"
+			(at 359.41 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7d68b96-867d-45b8-9683-3012fd21f900")
+		)
+		(pin "2"
+			(uuid "a6a84453-cec3-4172-ad06-16e2d0bf992c")
+		)
+		(instances
+			(project "SX1255-SXCEIVER-HAT"
+				(path "/5946dd4e-fab1-4214-b6c7-4fabd0e98d1f"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -18281,7 +18533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 180.34 229.87 0)
 			(effects
 				(font
@@ -18290,8 +18542,8 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
-			(at 180.34 229.87 0)
+		(property "Manufacturer" "Vishay Dale"
+			(at 180.34 229.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18299,8 +18551,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 180.34 229.87 0)
+		(property "Manufacturer Product Number" "CRCW06030000Z0EA"
+			(at 180.34 229.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "541-0.0GCT-ND"
+			(at 180.34 229.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18384,6 +18645,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Lite-On Inc."
+			(at 359.41 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "LTST-C190KSKT"
+			(at 359.41 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "160-1437-1-ND"
+			(at 359.41 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6872fd47-faf8-4fb6-9ea4-a9d6a9e6341a")
 		)
@@ -18442,7 +18730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "opt."
+		(property "Description" "~"
 			(at 55.118 136.652 0)
 			(effects
 				(font
@@ -18451,7 +18739,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "Manufacturer" "Vishay Dale"
 			(at 53.34 133.35 0)
 			(effects
 				(font
@@ -18460,7 +18748,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "Manufacturer Product Number" "CRCW06030000Z0EA"
+			(at 53.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "541-0.0GCT-ND"
 			(at 53.34 133.35 0)
 			(effects
 				(font
@@ -18589,7 +18886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-5/90665.pdf"
+		(property "Datasheet" "~"
 			(at 232.41 301.6 0)
 			(effects
 				(font
@@ -18599,7 +18896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 200.66 119.38 0)
 			(effects
 				(font
@@ -18608,27 +18905,25 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.8"
-			(at 232.41 501.6 0)
+		(property "Manufacturer" "Semtech Corporation"
+			(at 200.66 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "MPN" "SX1255IWLTRT"
-			(at 232.41 901.6 0)
+		(property "Manufacturer Product Number" "SX1255IWLTRT"
+			(at 200.66 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "PN" "947-SX1255IWLTRT"
+		(property "Part Number" "SX1255IWLTRTCT-ND"
 			(at 200.66 119.38 0)
 			(effects
 				(font
@@ -18853,7 +19148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 219.71 237.49 0)
 			(effects
 				(font
@@ -18862,8 +19157,8 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
-			(at 219.71 237.49 0)
+		(property "Manufacturer" "Vishay Dale"
+			(at 219.71 237.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18871,8 +19166,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 219.71 237.49 0)
+		(property "Manufacturer Product Number" "CRCW06031M00FKEA"
+			(at 219.71 237.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "541-1.00MHCT-ND"
+			(at 219.71 237.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18938,7 +19242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 155.956 98.044 0)
 			(effects
 				(font
@@ -18947,7 +19251,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "Manufacturer" "Vishay Dale"
 			(at 158.75 93.98 0)
 			(effects
 				(font
@@ -18956,7 +19260,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "Manufacturer Product Number" "CRCW06031R00FKEA"
+			(at 158.75 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "541-1.00HHCT-ND"
 			(at 158.75 93.98 0)
 			(effects
 				(font
@@ -19024,7 +19337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 170.18 48.26 0)
 			(effects
 				(font
@@ -19033,8 +19346,8 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
-			(at 170.18 48.26 0)
+		(property "Manufacturer" "KEMET"
+			(at 170.18 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19042,8 +19355,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 170.18 48.26 0)
+		(property "Manufacturer Product Number" "C0603C101J8GACTU"
+			(at 170.18 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "399-15348-1-ND"
+			(at 170.18 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19061,6 +19383,103 @@
 			(project "SX1255-SXCEIVER-HAT"
 				(path "/5946dd4e-fab1-4214-b6c7-4fabd0e98d1f"
 					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-RF:U.FL")
+		(at 109.22 68.58 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd1edd64-5f46-489f-8c31-c9da1eb5a900")
+		(property "Reference" "J2"
+			(at 105.41 70.1433 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "U.FL"
+			(at 105.41 67.6033 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Connector:U.FL"
+			(at 109.22 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "~"
+			(at 108.9025 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity Linx"
+			(at 109.22 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CONMHF1-SMD-G-T"
+			(at 109.22 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "343-CONMHF1-SMD-G-TCT-ND"
+			(at 109.22 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e39ca3ee-3f97-408b-85b3-e5fd6e659953")
+		)
+		(pin "1"
+			(uuid "c4e97c66-5644-4f57-a85c-045264cce932")
+		)
+		(instances
+			(project "SX1255-SXCEIVER-HAT"
+				(path "/5946dd4e-fab1-4214-b6c7-4fabd0e98d1f"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -19102,7 +19521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 193.04 66.04 0)
 			(effects
 				(font
@@ -19111,7 +19530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 193.04 66.04 0)
 			(effects
 				(font
@@ -19120,133 +19539,30 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Qorvo"
+		(property "Manufacturer" "Qorvo"
 			(at 193.04 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.95mm"
+		(property "Manufacturer Product Number" "TQP3M9036"
 			(at 193.04 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Package" "DFN-8 Qorvo"
+		(property "Part Number" "2312-TQP3M9036CT-ND"
 			(at 193.04 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 193.04 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TQP3M9036/Qorvo/view-part/?ref=eda"
-			(at 193.04 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 193.04 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "N/A"
-			(at 193.04 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TQP3M9036/Qorvo/view-part/?ref=snap"
-			(at 193.04 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TQP3M9036"
-			(at 193.04 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1240987&manufacturer=Qorvo&part_name=TQP3M9036&search_term=None"
-			(at 193.04 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "RF Amp Chip Single GP 2GHz 5.25V 8-Pin DFN EP T/R"
-			(at 193.04 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 193.04 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Qorvo"
-			(at 193.04 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -19285,7 +19601,7 @@
 		(at 295.91 236.22 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d19b0eb8-7497-47e9-8e51-3edab6d275d6")
@@ -19460,7 +19776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 187.96 99.06 0)
 			(effects
 				(font
@@ -19469,7 +19785,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "Manufacturer" "Vishay Vitramon"
 			(at 187.96 99.06 0)
 			(effects
 				(font
@@ -19478,7 +19794,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "Manufacturer Product Number" "VJ0603Y104JXQPW1BC"
+			(at 187.96 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "720-1688-1-ND"
 			(at 187.96 99.06 0)
 			(effects
 				(font
@@ -19539,7 +19864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2607/UFL%20Series.pdf"
+		(property "Datasheet" "~"
 			(at 300.99 81.28 0)
 			(effects
 				(font
@@ -19548,7 +19873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMA PCB Edge Mount connector SMD"
+		(property "Description" "~"
 			(at 301.3075 83.82 0)
 			(effects
 				(font
@@ -19557,8 +19882,26 @@
 				(hide yes)
 			)
 		)
-		(property "PROD_ID" "CONN-09193"
-			(at 300.99 78.74 0)
+		(property "Manufacturer" "TE Connectivity Linx"
+			(at 300.99 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CONMHF1-SMD-G-T"
+			(at 300.99 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "343-CONMHF1-SMD-G-TCT-ND"
+			(at 300.99 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19634,6 +19977,33 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
+			(at 359.41 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 359.41 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "APT1608SGD3"
+			(at 359.41 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "754-APT1608SGD3CT-ND"
 			(at 359.41 172.72 0)
 			(effects
 				(font
@@ -19784,6 +20154,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Kingbright"
+			(at 359.41 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "APT1608SGD3"
+			(at 359.41 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "754-APT1608SGD3CT-ND"
+			(at 359.41 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "90601c6e-c1d3-413f-8c2f-4a06a33cc3c9")
 		)
@@ -19827,7 +20224,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 172.72 57.15 0)
 			(effects
 				(font
@@ -19845,7 +20242,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "~"
+			(at 172.72 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Johanson Technology Inc."
+			(at 172.72 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "LRC0603CJ68NGV001T"
+			(at 172.72 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property " Part Number" "712-LRC0603CJ68NGV001TCT-ND"
 			(at 172.72 57.15 0)
 			(effects
 				(font
@@ -19969,7 +20393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.minicircuits.com/pdfs/LFCN-490+.pdf"
+		(property "Datasheet" "~"
 			(at 138.43 68.58 0)
 			(effects
 				(font
@@ -19978,7 +20402,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "490MHz 50 Ohm Passive Low Pass Filter, FV1206"
+		(property "Description" "~"
+			(at 138.43 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Mini-Circuits"
+			(at 138.43 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "LFCN-490+"
+			(at 138.43 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "3157-LFCN-490+CT-ND"
 			(at 138.43 68.58 0)
 			(effects
 				(font
@@ -20118,7 +20569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 274.32 218.44 0)
 			(effects
 				(font
@@ -20127,8 +20578,8 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
-			(at 274.32 218.44 0)
+		(property "Manufacturer" "Vishay Vitramon"
+			(at 274.32 218.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20136,8 +20587,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 274.32 218.44 0)
+		(property "Manufacturer Product Number" "VJ0603Y104JXQPW1BC"
+			(at 274.32 218.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "720-1688-1-ND"
+			(at 274.32 218.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20270,7 +20730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 210.82 68.58 0)
 			(effects
 				(font
@@ -20279,8 +20739,8 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
-			(at 210.82 68.58 0)
+		(property "Manufacturer" "KEMET"
+			(at 210.82 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20288,8 +20748,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 210.82 68.58 0)
+		(property "Manufacturer Product Number" "C0603C101J8GACTU"
+			(at 210.82 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "399-15348-1-ND"
+			(at 210.82 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20355,7 +20824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 348.996 176.784 0)
 			(effects
 				(font
@@ -20364,7 +20833,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "Manufacturer" "Vishay Dale"
 			(at 351.79 172.72 0)
 			(effects
 				(font
@@ -20373,7 +20842,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "Manufacturer Product Number" "CRCW06033K30FKEA"
+			(at 351.79 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "541-3.30KHCT-ND"
 			(at 351.79 172.72 0)
 			(effects
 				(font
@@ -20507,7 +20985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 163.83 68.58 0)
 			(effects
 				(font
@@ -20516,8 +20994,8 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
-			(at 163.83 68.58 0)
+		(property "Manufacturer" "KEMET"
+			(at 163.83 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20525,8 +21003,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 163.83 68.58 0)
+		(property "Manufacturer Product Number" "C0603C101J8GACTU"
+			(at 163.83 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "399-15348-1-ND"
+			(at 163.83 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20586,7 +21073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf"
+		(property "Datasheet" "~"
 			(at 170.18 91.44 0)
 			(effects
 				(font
@@ -20596,8 +21083,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"
+		(property "Description" "~"
 			(at 173.99 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MDD"
+			(at 173.99 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "BSS84"
+			(at 173.99 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "3372-BSS84TR-ND"
+			(at 173.99 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20666,7 +21180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 209.296 162.306 0)
 			(effects
 				(font
@@ -20675,7 +21189,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "Manufacturer" "Vishay Dale"
 			(at 213.36 165.1 0)
 			(effects
 				(font
@@ -20684,7 +21198,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "Manufacturer Product Number" "CRCW0603330RFKEA"
+			(at 213.36 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "541-330HCT-ND"
 			(at 213.36 165.1 0)
 			(effects
 				(font
@@ -20712,8 +21235,8 @@
 		(lib_id "Device:R_Small")
 		(at 81.28 135.89 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f1997030-403d-4b6f-8381-300a2fbc1593")
@@ -20751,7 +21274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 85.344 138.684 0)
 			(effects
 				(font
@@ -20760,7 +21283,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "Manufacturer" "Vishay Dale"
 			(at 81.28 135.89 0)
 			(effects
 				(font
@@ -20769,7 +21292,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "Manufacturer Product Number" "CRCW060310K0FKEA"
+			(at 81.28 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "541-10.0KHCT-ND"
 			(at 81.28 135.89 0)
 			(effects
 				(font
@@ -20839,7 +21371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 236.22 99.06 0)
 			(effects
 				(font
@@ -20848,7 +21380,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "Manufacturer" "Vishay Vitramon"
 			(at 236.22 99.06 0)
 			(effects
 				(font
@@ -20857,7 +21389,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "Manufacturer Product Number" "VJ0603Y104JXQPW1BC"
+			(at 236.22 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "720-1688-1-ND"
 			(at 236.22 99.06 0)
 			(effects
 				(font
@@ -21058,25 +21599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 353.06 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 353.06 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
+		(property "Description" "~"
 			(at 353.06 223.52 0)
 			(effects
 				(font
@@ -21143,7 +21666,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 180.34 227.33 0)
 			(effects
 				(font
@@ -21152,8 +21675,8 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
-			(at 180.34 227.33 0)
+		(property "Manufacturer" "Vishay Dale"
+			(at 180.34 227.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21161,8 +21684,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 180.34 227.33 0)
+		(property "Manufacturer Product Number" "CRCW0603330RFKEA"
+			(at 180.34 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "541-330HCT-ND"
+			(at 180.34 227.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21180,85 +21712,6 @@
 			(project "SX1255-SXCEIVER-HAT"
 				(path "/5946dd4e-fab1-4214-b6c7-4fabd0e98d1f"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-RF:U.FL")
-		(at 109.22 68.58 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fb9c396b-64b5-4772-a40b-48933c3c003f")
-		(property "Reference" "J2"
-			(at 105.41 70.1433 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "U.FL"
-			(at 105.41 67.6033 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_SparkFun-Connector:U.FL"
-			(at 109.22 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2607/UFL%20Series.pdf"
-			(at 109.22 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMA PCB Edge Mount connector SMD"
-			(at 108.9025 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PROD_ID" "CONN-09193"
-			(at 109.22 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a0af7565-ee4e-4044-ae24-1214f6d5d0c1")
-		)
-		(pin "1"
-			(uuid "2b513dbb-a954-4e1d-89c8-addc3df57f76")
-		)
-		(instances
-			(project "SX1255-SXCEIVER-HAT"
-				(path "/5946dd4e-fab1-4214-b6c7-4fabd0e98d1f"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -21307,7 +21760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "~"
 			(at 206.756 162.306 0)
 			(effects
 				(font
@@ -21316,7 +21769,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "Manufacturer" "Vishay Dale"
 			(at 210.82 165.1 0)
 			(effects
 				(font
@@ -21325,7 +21778,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "Manufacturer Product Number" "CRCW060333R0FKEA"
+			(at 210.82 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "541-33.0HCT-ND"
 			(at 210.82 165.1 0)
 			(effects
 				(font
