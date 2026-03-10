@@ -22269,6 +22269,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Duplex 7.6 ~ 10MHz"
+		(at 146.75 121.25 0)
+		(layer "F.SilkS")
+		(uuid "ea3d9f3e-122f-48be-afed-e7f1f52d47fa")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.175)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 123.25 95.5)
 		(end 125.4 93.35)
