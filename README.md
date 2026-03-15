@@ -7,5 +7,5 @@ SX1255 HAT for RPi4-5.
 https://github.com/MidnightBlueLabs/tetra-bluestation
 
 # The TQP3M9036 can amplify up to 20dBm @ (70cm-band) 
-# Tetra TMO configurator " https://dimetra.russel053.com/ "
+# BlueStation Tetra TMO configurator " https://dimetra.russel053.com/ "
 # Z32IT
