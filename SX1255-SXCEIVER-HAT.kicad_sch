@@ -7,7 +7,7 @@
 	(title_block
 		(title "SX1255 RPi 4-5 HAT")
 		(date "2026-03-15")
-		(rev "V1.3.2")
+		(rev "V1.3.2 FINAL")
 		(company "Z32IT")
 		(comment 1 "Modified SXceiver")
 	)
@@ -2896,6 +2896,178 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ECS-2520MV-xxx-xx_1"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at -5.08 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "ECS-2520MV-xxx-xx"
+				(at 1.27 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Oscillator:Oscillator_SMD_ECS_2520MV-xxx-xx-4Pin_2.5x2.0mm"
+				(at 11.43 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf"
+				(at -4.445 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "HCMOS Crystal Clock Oscillator, 2.5x2.0 mm SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Crystal Clock Oscillator ECS SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Oscillator*SMD*ECS*2520MV*2.5x2.0mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ECS-2520MV-xxx-xx_1_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 2.54) (xy -3.81 2.54) (xy -3.81 3.81) (xy -3.175 3.81) (xy -3.175 2.54) (xy -2.54 2.54)
+						(xy -2.54 3.81) (xy -1.905 3.81) (xy -1.905 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ECS-2520MV-xxx-xx_1_1_1"
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "Tri-State"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "GND_1"
 			(power)
 			(pin_numbers
@@ -3582,178 +3754,6 @@
 						)
 					)
 					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Oscillator:ECS-2520MV-xxx-xx"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Y"
-				(at -5.08 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "ECS-2520MV-xxx-xx"
-				(at 1.27 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Oscillator:Oscillator_SMD_ECS_2520MV-xxx-xx-4Pin_2.5x2.0mm"
-				(at 11.43 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf"
-				(at -4.445 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "HCMOS Crystal Clock Oscillator, 2.5x2.0 mm SMD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Crystal Clock Oscillator ECS SMD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Oscillator*SMD*ECS*2520MV*2.5x2.0mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ECS-2520MV-xxx-xx_0_1"
-				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 2.54) (xy -3.81 2.54) (xy -3.81 3.81) (xy -3.175 3.81) (xy -3.175 2.54) (xy -2.54 2.54)
-						(xy -2.54 3.81) (xy -1.905 3.81) (xy -1.905 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ECS-2520MV-xxx-xx_1_1"
-				(pin input line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "Tri-State"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6216,15 +6216,25 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "JP1, Open, Standard schematic"
+	(text "JP1, Closed, Without Q1 and R30, U3 and components around it."
 		(exclude_from_sim no)
-		(at 134.62 98.806 0)
+		(at 134.366 104.394 0)
 		(effects
 			(font
 				(size 1 1)
 			)
 		)
-		(uuid "0a723b11-07a4-42b0-bc4a-113b0d2b8b3f")
+		(uuid "65d0427a-a906-40ff-8a92-f0b8e48e80eb")
+	)
+	(text "JP1, Open, Standard schematic"
+		(exclude_from_sim no)
+		(at 133.096 101.092 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+		(uuid "6bffc4a9-457d-4f4b-a3c5-ee8fbe47d6ae")
 	)
 	(text "TX-LED"
 		(exclude_from_sim no)
@@ -6235,16 +6245,6 @@
 			)
 		)
 		(uuid "727dc9f0-7c09-4e39-99be-1b82cd6b81ce")
-	)
-	(text "JP1, Closed, Without Q1 and R30, U3 and components around it."
-		(exclude_from_sim no)
-		(at 135.89 102.108 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-		)
-		(uuid "bfa93241-da72-4fe1-9015-c386bae1fad7")
 	)
 	(junction
 		(at 242.57 68.58)
@@ -7072,16 +7072,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 86.36) (xy 187.96 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2433c778-9f35-4fdb-b7ed-fee4b04e6704")
-	)
-	(wire
-		(pts
 			(xy 250.19 68.58) (xy 262.89 68.58)
 		)
 		(stroke
@@ -7179,16 +7169,6 @@
 			(type default)
 		)
 		(uuid "31686e59-978b-47a5-bd65-1975ca02329c")
-	)
-	(wire
-		(pts
-			(xy 165.1 86.36) (xy 165.1 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33343e85-49da-43e8-b0e4-95964ad5fdb4")
 	)
 	(wire
 		(pts
@@ -7832,16 +7812,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 86.36) (xy 165.1 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c977d6c-5696-4ab6-9d18-469cc0dcfeed")
-	)
-	(wire
-		(pts
 			(xy 219.71 227.33) (xy 224.79 227.33)
 		)
 		(stroke
@@ -7859,6 +7829,16 @@
 			(type default)
 		)
 		(uuid "7f508dbf-a99e-4e2a-891f-dba576bf0236")
+	)
+	(wire
+		(pts
+			(xy 170.18 86.36) (xy 165.1 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80b48411-2b6f-4c7d-b859-0618ac2e53dc")
 	)
 	(wire
 		(pts
@@ -7889,6 +7869,16 @@
 			(type default)
 		)
 		(uuid "82d837ad-b730-4e25-b7de-e6582c1e439c")
+	)
+	(wire
+		(pts
+			(xy 165.1 86.36) (xy 165.1 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8382e152-e755-40c1-ae74-c38db52f0148")
 	)
 	(wire
 		(pts
@@ -8189,16 +8179,6 @@
 			(type default)
 		)
 		(uuid "a5fdf0b9-4f78-44d4-ba14-b075e8483b28")
-	)
-	(wire
-		(pts
-			(xy 187.96 86.36) (xy 187.96 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6f227ad-db79-4226-b02a-04c9e495559d")
 	)
 	(wire
 		(pts
@@ -8622,6 +8602,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 86.36) (xy 187.96 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d007df3a-7d62-4ba4-9b67-b6821d1a423a")
+	)
+	(wire
+		(pts
 			(xy 354.33 167.64) (xy 356.87 167.64)
 		)
 		(stroke
@@ -8989,6 +8979,16 @@
 			(type default)
 		)
 		(uuid "f41a69b8-cd39-4589-a713-1c4399939513")
+	)
+	(wire
+		(pts
+			(xy 177.8 86.36) (xy 187.96 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f46874fc-4f05-47e0-a435-2a57e2826ec5")
 	)
 	(wire
 		(pts
@@ -11389,86 +11389,6 @@
 			(project "SX1255 RPI4-5 HAT"
 				(path "/5946dd4e-fab1-4214-b6c7-4fabd0e98d1f"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Oscillator:ECS-2520MV-xxx-xx")
-		(at 68.58 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "25acf944-8687-45db-af9e-280b5e2006a3")
-		(property "Reference" "Y1"
-			(at 64.262 122.428 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "38.4MHZ"
-			(at 68.58 129.286 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
-			(at 80.01 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.135 126.365 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Clipped SW 0.5~1ppm"
-			(at 77.47 122.428 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Model" "KDS-DSB321SDN or other brands"
-			(at 85.598 119.888 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "327141f2-49b5-420c-9809-353c09beda71")
-		)
-		(pin "3"
-			(uuid "a0724f53-196d-44fe-b3ac-ac6aadb31431")
-		)
-		(pin "2"
-			(uuid "f034b934-2064-4fe4-a770-d71aa018c077")
-		)
-		(pin "4"
-			(uuid "6fd68fb9-5838-4a73-9237-e13390603c82")
-		)
-		(instances
-			(project "SX1255-SXCEIVER-HAT"
-				(path "/5946dd4e-fab1-4214-b6c7-4fabd0e98d1f"
-					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -14543,6 +14463,115 @@
 		)
 	)
 	(symbol
+		(lib_name "ECS-2520MV-xxx-xx_1")
+		(lib_id "Oscillator:ECS-2520MV-xxx-xx")
+		(at 68.58 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68b8c186-ba5c-4737-8f3b-bdb77f3bbca2")
+		(property "Reference" "Y1"
+			(at 64.77 121.666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "38.4MHz"
+			(at 68.834 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+			(at 80.01 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.135 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Clipped SW/0.5~1ppm"
+			(at 80.264 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "EPSON "
+			(at 68.58 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "TG2520SMN 38.4000M-MCGNNM3"
+			(at 68.58 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "114-TG2520SMN38.4000M-MCGNNM3CT-ND"
+			(at 68.58 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TCXO-Footprints" "3225 or 2510"
+			(at 68.58 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d70749b5-7fc0-42c2-9b90-ee0ac386d8b4")
+		)
+		(pin "3"
+			(uuid "e8e04239-c837-43cd-8251-1065e6523926")
+		)
+		(pin "4"
+			(uuid "ec487545-f541-4ecb-a047-e838af131d29")
+		)
+		(pin "1"
+			(uuid "0f349e60-cc83-4276-bbba-f715f6ab9644")
+		)
+		(instances
+			(project ""
+				(path "/5946dd4e-fab1-4214-b6c7-4fabd0e98d1f"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 238.76 158.75 90)
 		(unit 1)
@@ -15585,7 +15614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor with ferrite core, small symbol"
+		(property "Description" "FERRITE BEAD 600 OHM 0805 1LN"
 			(at 60.96 177.8 0)
 			(effects
 				(font
@@ -15603,7 +15632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Product Number" "BLM18HG601SN1D"
+		(property "Manufacturer Product Number" "BLM21BD601SN1D"
 			(at 60.96 177.8 90)
 			(effects
 				(font
@@ -15612,7 +15641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "490-1033-1-ND"
+		(property "Part Number" "490-1046-1-ND"
 			(at 60.96 177.8 90)
 			(effects
 				(font
@@ -15628,7 +15657,7 @@
 			(uuid "ed147f73-4cc3-4705-9e25-9dc1affbbfa8")
 		)
 		(instances
-			(project ""
+			(project "SX1255-SXCEIVER-HAT"
 				(path "/5946dd4e-fab1-4214-b6c7-4fabd0e98d1f"
 					(reference "L1")
 					(unit 1)

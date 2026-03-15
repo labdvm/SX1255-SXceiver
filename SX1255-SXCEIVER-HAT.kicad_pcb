@@ -5295,7 +5295,7 @@
 		(path "/749ea570-7461-4a4f-9faa-f631612f7696")
 		(sheetname "/")
 		(sheetfile "SX1255-SXCEIVER-HAT.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -6624,7 +6624,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor with ferrite core, small symbol"
+		(property "Description" "FERRITE BEAD 600 OHM 0805 1LN"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6650,7 +6650,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Product Number" "BLM18HG601SN1D"
+		(property "Manufacturer Product Number" "BLM21BD601SN1D"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6663,7 +6663,7 @@
 				)
 			)
 		)
-		(property "Part Number" "490-1033-1-ND"
+		(property "Part Number" "490-1046-1-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12001,7 +12001,7 @@
 				)
 			)
 		)
-		(property "Value" "38.4MHZ"
+		(property "Value" "38.4MHz"
 			(at 0 2.45 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12026,7 +12026,7 @@
 				)
 			)
 		)
-		(property "Description" "Clipped SW 0.5~1ppm"
+		(property "Description" "Clipped SW/0.5~1ppm"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12052,11 +12052,63 @@
 				)
 			)
 		)
+		(property "Manufacturer" "EPSON "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5d8b661-4211-4c15-9f4f-ada919b9b8e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Product Number" "TG2520SMN 38.4000M-MCGNNM3"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79db3952-8bb6-4675-9da9-958d298fbd1e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "114-TG2520SMN38.4000M-MCGNNM3CT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "15dd2e98-b434-49d8-bd9d-ce90547d24cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TCXO-Footprints" "3225 or 2510"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f0ec8773-b615-4aad-bf52-6de176534b0d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Oscillator*SMD*ECS*2520MV*2.5x2.0mm*")
-		(path "/25acf944-8687-45db-af9e-280b5e2006a3")
+		(path "/68b8c186-ba5c-4737-8f3b-bdb77f3bbca2")
 		(sheetname "/")
 		(sheetfile "SX1255-SXCEIVER-HAT.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd)
 		(fp_line
 			(start -2 1.65)
 			(end 2 1.65)
@@ -14360,7 +14412,7 @@
 		(path "/c139f8f2-cdd7-4d44-b321-a0520447622e")
 		(sheetname "/")
 		(sheetfile "SX1255-SXCEIVER-HAT.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start 0.8 -0.735)
 			(end -1.66 -0.735)
@@ -16263,7 +16315,7 @@
 		(path "/7ae72e5e-9b10-4602-bab4-9feb5208d534")
 		(sheetname "/")
 		(sheetfile "SX1255-SXCEIVER-HAT.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -17609,7 +17661,6 @@
 			(size 0.71 0.27)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.125)
-			(net 2 "GND")
 			(solder_mask_margin 0.102)
 			(uuid "531a03c2-459f-4a35-b71f-1947eeb88870")
 		)
@@ -17628,7 +17679,6 @@
 			(size 0.71 0.27)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.125)
-			(net 2 "GND")
 			(solder_mask_margin 0.102)
 			(uuid "9b062359-fa6a-4110-85e9-0ea564dd2a0d")
 		)
@@ -17637,7 +17687,6 @@
 			(size 0.71 0.27)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.125)
-			(net 2 "GND")
 			(solder_mask_margin 0.102)
 			(uuid "5295844c-f93d-491d-8e5b-13d29614d1d4")
 		)
@@ -17646,7 +17695,6 @@
 			(size 0.71 0.27)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.125)
-			(net 2 "GND")
 			(solder_mask_margin 0.102)
 			(uuid "0f02eeb3-d224-45d6-ab3f-ba224163efa3")
 		)
@@ -17675,7 +17723,6 @@
 			(size 0.71 0.27)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.125)
-			(net 2 "GND")
 			(solder_mask_margin 0.102)
 			(uuid "597ade04-d498-496e-9e3e-df3da2620393")
 		)
@@ -21872,7 +21919,7 @@
 		(path "/76b745c3-8168-461f-a493-72ff30020865")
 		(sheetname "/")
 		(sheetfile "SX1255-SXCEIVER-HAT.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start 0.8 -0.735)
 			(end -1.66 -0.735)
