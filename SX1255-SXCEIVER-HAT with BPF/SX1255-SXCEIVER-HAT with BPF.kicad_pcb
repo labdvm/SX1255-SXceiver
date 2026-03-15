@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "SX1255-SXceiver-HAT with BPF")
-		(date "2026-03-08")
-		(rev "V1.4.2")
+		(date "2026-03-15")
+		(rev "V1.4.3 Final")
 		(company "Z32IT")
 		(comment 1 "Modified SXceiver")
 	)
@@ -9510,7 +9510,7 @@
 		(path "/749ea570-7461-4a4f-9faa-f631612f7696")
 		(sheetname "/")
 		(sheetfile "SX1255-SXCEIVER-HAT with BPF.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -15567,7 +15567,7 @@
 		(path "/72f97579-b720-4aaf-9bd6-35fff941a473")
 		(sheetname "/")
 		(sheetfile "SX1255-SXCEIVER-HAT with BPF.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start 0.8 -0.735)
 			(end -1.66 -0.735)
@@ -16716,7 +16716,7 @@
 		(path "/9744977d-161a-4ec4-b081-4de3f6a2026e")
 		(sheetname "/")
 		(sheetfile "SX1255-SXCEIVER-HAT with BPF.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start 0.8 -0.735)
 			(end -1.66 -0.735)
@@ -17552,7 +17552,7 @@
 		(path "/7ae72e5e-9b10-4602-bab4-9feb5208d534")
 		(sheetname "/")
 		(sheetfile "SX1255-SXCEIVER-HAT with BPF.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -22152,7 +22152,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "V1.4.2"
+	(gr_text "V1.4.3"
 		(at 131.75 121.75 0)
 		(layer "F.SilkS")
 		(uuid "2b64b218-faa7-402e-8b19-a8673195175a")
