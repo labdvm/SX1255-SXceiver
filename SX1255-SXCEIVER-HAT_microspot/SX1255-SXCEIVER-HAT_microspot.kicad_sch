@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "SX1255 RPi 4-5 HAT microspot")
-		(date "2026-03-07")
-		(rev "V1.5")
+		(date "2026-03-15")
+		(rev "V1.5  Final")
 		(company "Z32IT")
 		(comment 1 "Modified SXceiver")
 	)
@@ -5147,156 +5147,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "TA1761A_:TA1761A"
 			(pin_names
 				(hide yes)
@@ -6330,12 +6180,6 @@
 		(uuid "23e9c8a1-ef0f-439e-a341-ac2d00f0e0fb")
 	)
 	(junction
-		(at 353.06 218.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2842d0fc-fbc9-428b-b5f4-13cae8e5968a")
-	)
-	(junction
 		(at 304.8 217.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6364,12 +6208,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3cb86d96-3b6d-4340-a213-cf8789714719")
-	)
-	(junction
-		(at 359.41 231.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47888985-4cfe-4bcf-bee9-d84ce5812123")
 	)
 	(junction
 		(at 270.51 226.06)
@@ -6825,16 +6663,6 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 218.44) (xy 353.06 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c011769-673f-484c-9dde-7c5a0f2d640f")
-	)
-	(wire
-		(pts
 			(xy 86.36 129.54) (xy 81.28 129.54)
 		)
 		(stroke
@@ -7092,16 +6920,6 @@
 			(type default)
 		)
 		(uuid "28c5e265-d087-4488-aa1f-ea3cc68bda65")
-	)
-	(wire
-		(pts
-			(xy 351.79 218.44) (xy 353.06 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c168514-f77c-4bea-aaa7-668dceab5cf3")
 	)
 	(wire
 		(pts
@@ -7492,16 +7310,6 @@
 			(type default)
 		)
 		(uuid "58a2281c-87e3-4128-9e7f-c0bdb53ff0d3")
-	)
-	(wire
-		(pts
-			(xy 359.41 231.14) (xy 359.41 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c1ddc5e-089e-4796-91e4-3c563d5eb7a8")
 	)
 	(wire
 		(pts
@@ -7985,16 +7793,6 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 226.06) (xy 353.06 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9981cb0d-e7c4-4f66-8839-a689ab2bd614")
-	)
-	(wire
-		(pts
 			(xy 304.8 217.17) (xy 311.15 217.17)
 		)
 		(stroke
@@ -8132,16 +7930,6 @@
 			(type default)
 		)
 		(uuid "a73a5ccd-2c67-4aae-b475-254524473d39")
-	)
-	(wire
-		(pts
-			(xy 340.36 218.44) (xy 346.71 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a76af198-a89f-46ef-9f21-982128316d9d")
 	)
 	(wire
 		(pts
@@ -8385,16 +8173,6 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 231.14) (xy 359.41 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c126b2c0-c1cc-4eda-bb58-eed65f4c1229")
-	)
-	(wire
-		(pts
 			(xy 185.42 66.04) (xy 185.42 68.58)
 		)
 		(stroke
@@ -8452,16 +8230,6 @@
 			(type default)
 		)
 		(uuid "c8281a3d-9ce7-41b1-bcd3-3efbd02c0b5c")
-	)
-	(wire
-		(pts
-			(xy 359.41 228.6) (xy 359.41 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8f8cf9c-d647-4c2e-93a7-51f419e0e72a")
 	)
 	(wire
 		(pts
@@ -8662,16 +8430,6 @@
 			(type default)
 		)
 		(uuid "dfe1f6cd-5f40-4048-81ab-921686c9c4b7")
-	)
-	(wire
-		(pts
-			(xy 353.06 218.44) (xy 359.41 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e36b1435-d642-42dd-b526-1cb9d13ba815")
 	)
 	(wire
 		(pts
@@ -9662,16 +9420,6 @@
 			(justify left bottom)
 		)
 		(uuid "d35a4ed2-476a-4fad-91e5-14533a9d25cb")
-	)
-	(label "H_GPIO26"
-		(at 340.36 218.44 180)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify right bottom)
-		)
-		(uuid "d6716197-1f87-4088-85c7-51c995ff13eb")
 	)
 	(label "H_ID_SD"
 		(at 339.09 130.81 180)
@@ -14830,7 +14578,7 @@
 		(lib_id "Device:LED_Small")
 		(at 359.41 195.58 180)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -14906,7 +14654,7 @@
 		(lib_id "Device:R_Small")
 		(at 351.79 195.58 270)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -15076,7 +14824,7 @@
 		(lib_id "Device:R_Small")
 		(at 351.79 190.5 270)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -15928,7 +15676,7 @@
 		(lib_id "Device:LED_Small")
 		(at 359.41 190.5 180)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -16633,91 +16381,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 349.25 218.44 270)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a70929a5-0353-479d-948b-7df1d585d191")
-		(property "Reference" "R32"
-			(at 348.234 214.376 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "330R"
-			(at 350.266 214.122 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 349.25 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 349.25 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 346.456 222.504 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 349.25 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 349.25 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "002de5bb-4046-4d6c-b45c-0a4a3e12de12")
-		)
-		(pin "2"
-			(uuid "f944e245-0098-41a8-a032-2fdaf0b3e944")
-		)
-		(instances
-			(project "SX1255-SXCEIVER-HAT"
-				(path "/5946dd4e-fab1-4214-b6c7-4fabd0e98d1f"
-					(reference "R32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 187.96 104.14 0)
 		(unit 1)
@@ -16858,73 +16521,6 @@
 			(project "SX1255-SXCEIVER-HAT_microspot"
 				(path "/5946dd4e-fab1-4214-b6c7-4fabd0e98d1f"
 					(reference "Y1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 359.41 232.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a9ba54b8-4e43-4067-927a-41a61e62b6a3")
-		(property "Reference" "#PWR019"
-			(at 359.41 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 359.41 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 359.41 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 359.41 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 359.41 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "305c5025-c5e6-47f4-8565-20b8bad425fb")
-		)
-		(instances
-			(project "SX1255-SXCEIVER-HAT"
-				(path "/5946dd4e-fab1-4214-b6c7-4fabd0e98d1f"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -18271,76 +17867,6 @@
 			(project "SX1255 RPI4-5 HAT"
 				(path "/5946dd4e-fab1-4214-b6c7-4fabd0e98d1f"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 359.41 223.52 270)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c733fc3a-3369-45d1-8a7e-0b899fb7b242")
-		(property "Reference" "SW1"
-			(at 363.22 222.2499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 363.22 224.7899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
-			(at 364.49 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 364.49 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 359.41 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d4ce300f-6932-45b5-be06-d138e2faf162")
-		)
-		(pin "1"
-			(uuid "910ed7d9-821b-4a34-bc57-a67e76418dfd")
-		)
-		(instances
-			(project ""
-				(path "/5946dd4e-fab1-4214-b6c7-4fabd0e98d1f"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -20263,93 +19789,6 @@
 			(project "SX1255-SXCEIVER-HAT"
 				(path "/5946dd4e-fab1-4214-b6c7-4fabd0e98d1f"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 353.06 223.52 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f3306608-f9c4-4ccc-84e9-1d52b2fbd440")
-		(property "Reference" "C16"
-			(at 355.6 222.3658 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10n"
-			(at 355.6 224.79 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 353.06 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 353.06 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 353.06 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 353.06 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 353.06 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aba93009-3210-44bf-aaa8-1b28651347ec")
-		)
-		(pin "2"
-			(uuid "c834eab3-97aa-43e9-9d30-f009c1b256d1")
-		)
-		(instances
-			(project "SX1255-SXCEIVER-HAT"
-				(path "/5946dd4e-fab1-4214-b6c7-4fabd0e98d1f"
-					(reference "C16")
 					(unit 1)
 				)
 			)
